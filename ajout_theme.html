@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <title>Formulaire Thème</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class='form-container'>
+        <form method="post" action="ajouter_theme.php">
+            <label for="nom">Nom:</label>
+            <input id="nom" name="nom" type="text" maxlength="30" size="30" required>
+            
+            <label for="descriptif">Descriptif du thème :</label>
+            <textarea id="descriptif" name="descriptif" rows="5" cols="33" required></textarea>
+            
+            <input value="Envoyer" type="submit">
+            <input value="Réinitialiser" type="reset">
+        </form>
+    </div>
+</body>
+</html>

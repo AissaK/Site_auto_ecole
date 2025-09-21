@@ -1,0 +1,184 @@
+/* style.css */
+
+/* Styles spécifiques au menu */
+.menu-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.menu-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.menu-container a {
+    display: block;
+    font-size: 18px;
+    color: #0066cc;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.menu-container a:hover {
+    text-decoration: underline;
+    color: #004499;
+}
+
+/* Styles spécifiques à la page d'accueil */
+.accueil-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.accueil-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.accueil-container h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Styles spécifiques au formulaire de consultation d'élève */
+.form-container {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.form-container h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-container th, .form-container td {
+    padding: 10px;
+    text-align: center;
+}
+
+.form-container label {
+    font-size: 18px;
+    color: #333;
+}
+
+.form-container select,
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input[type="text"],
+.form-container textarea,
+.form-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"],
+.form-container input[type="reset"] {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"]:hover, .form-container input[type="reset"]:hover {
+    background-color: #004499;
+}
+
+/* Styles spécifiques pour les tables de consultation d'élève */
+.consult-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.consult-table th, .consult-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.consult-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.consult-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.consult-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styles pour les boutons */
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-container a button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.button-container a button:hover {
+    background-color: #004499;
+}
+
+.btn-simple {
+    background-color: #4CAF50; /* Couleur de fond verte */
+    color: white;              /* Couleur du texte blanche */
+    padding: 10px 20px;        /* Espacement intérieur */
+    border: none;              /* Pas de bordure */
+    cursor: pointer;           /* Curseur de pointeur */
+    border-radius: 4px;        /* Coins arrondis */
+}
+
+
+
+
+
+
+
+
+

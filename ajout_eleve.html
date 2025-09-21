@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>Formulaire élève</title>
+</head>
+<body>
+    <div class="form-container">
+        <form method="post" action="valider_eleve.php">
+            <label for="nom">Nom:</label>
+            <input id="nom" name="nom" type="text" maxlength="30" size="30" required><br>
+            <label for="prenom">Prénom:</label>
+            <input id="prenom" name="prenom" type="text" maxlength="30" size="30" required><br>
+            <label for="naissance">Date de naissance:</label>
+            <input id="naissance" name="dateNaiss" type="date" min="1940-01-01" required><br>
+            <input value="Envoyer" type="submit">
+            <input value="Réinitialiser" type="reset"><br>
+        </form>
+    </div>
+</body>
+</html>
